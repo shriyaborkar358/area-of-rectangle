@@ -89,7 +89,7 @@
         const resultText = document.getElementById("result");
 
         function cal(){
-            const rectangle = parseInt(firstInput.value) * parseInt(secondInput.value);
+            const rectangle = parseFloat(firstInput.value) * parseFloat(secondInput.value);
 
             resultText.innerText = ` Area of Rectangle: ${rectangle}`;
         }
